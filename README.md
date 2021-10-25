@@ -12,7 +12,7 @@ sudo systemctl enable httpd
 curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
-sudo cd /var/www/html/ && sudo git clone https://github.com/whchoi98/ec2meta-webpage.git
+sudo cd /var/www/html/ && sudo git clone https://github.com/kimdragon50/ec2meta-webpage.git
 ```
 
 #### AWS EC2 Instance User Data Shell Script 설치 기준
@@ -25,7 +25,7 @@ sudo systemctl enable httpd
 curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
-sudo cd /var/www/html/ && sudo git clone https://github.com/whchoi98/ec2meta-webpage.git
+sudo cd /var/www/html/ && sudo git clone https://github.com/kimdragon50/ec2meta-webpage.git
 ```
 _Amazonlinux 사용할 경우에는 awscli 설치과정이 필요없음._
 - - -
